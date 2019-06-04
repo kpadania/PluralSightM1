@@ -13,7 +13,6 @@ public class PluralsightSpringcloudM1StartupApplication {
 		SpringApplication.run(PluralsightSpringcloudM1StartupApplication.class, args);
 	}
 	
-	
 	@GetMapping(value="/greeting")
 	public String greeting() {
 	    return "Hello From Spring Boot";
